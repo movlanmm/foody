@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+select {
+  appearance: none;
+}
+
+#pgnt {
+  position: relative;
+}
+
+#pgnt::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: -50%;
+  width: 20px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: orange;
+  transform: scale(0);
+  transform-origin: center;
+  transition: all ease-in-out 0.45s;
+}
+
+#pgnt:hover::after {
+  transform: scale(1);
+}
+
+#pgnt.active::after {
+  transform: scale(1);
+}
+
+#header-link {
+  position: relative;
+}
+
+#header-link.active {
+  background: #eaa53b;
+  color: white;
+}
+
+#header-link::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  left: -10px;
+  top: 17%;
+  transform: rotate(45deg);
+}
+
+#header-link::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  right: -10px;
+  top: 17%;
+  transform: rotate(45deg);
+}
+
+#aside-link {
+  position: relative;
+  transition-duration: 0.12s;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+#aside-link:hover {
+  background-color: white;
+}
+
+#aside-link::after {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  right: 0;
+  top: -29px;
+  background-color: transparent;
+  border-bottom-right-radius: 100%;
+  transition-duration: 0.12s;
+}
+
+#aside-link::before {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  background-color: transparent;
+  right: 0;
+  top: 40px;
+  border-top-right-radius: 100%;
+  transition-duration: 0.12s;
+}
+
+#aside-link:hover::after {
+  box-shadow: 7px 7px 1px 4px white;
+}
+
+#aside-link:hover::before {
+  box-shadow: 7px -8px 1px 4px white;
+}
+
+@media (min-width: 768px) {
+  aside:not(.mobile-menu) {
+    box-shadow: 12px 0px 1px white;
+  }
+}
+
+::selection {
+  color: white;
+  background: #eaa53b;
+}
+
+.swiper-button-disabled {
+  opacity: 0.4;
+}
