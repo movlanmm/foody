@@ -47,7 +47,7 @@ export default function Header() {
         className={`justify-between bg-white items-center px-10 py-3 shadow-md  top-0 hidden lg:flex`}
       >
         <a href="#" className="logo">
-          <img src="/public/images/logo.png" alt="logo" className="w-36" />
+          <img src="/images/logo.png" alt="logo" className="w-36" />
         </a>
 
         <div className="links">

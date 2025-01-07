@@ -39,13 +39,13 @@ export default function About() {
         >
           <div className="relative">
             <div className="absolute top-0 left-0">
-              <img src="/public/images/about-img.png" alt="about" />
+              <img src="/images/about-img.png" alt="about" />
             </div>
             <div>
-              <img src="/public/images/about-img3.jpg" alt="about" />
+              <img src="/images/about-img3.jpg" alt="about" />
             </div>
             <div className="absolute top-0">
-              <img src="/public/images/about-img2.png" alt="about" />
+              <img src="/images/about-img2.png" alt="about" />
             </div>
           </div>
         </motion.div>

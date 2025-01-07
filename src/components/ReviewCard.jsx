@@ -4,7 +4,7 @@ import { FaStar } from 'react-icons/fa'
 export default function ReviewCard() {
   return (
     <div className='w-full flex gap-4 items-start pt-4'>
-        <img src="/public/images/person.jpeg" alt="person" className='w-[7%] object-contain rounded-xl' />
+        <img src="/images/person.jpeg" alt="person" className='w-[7%] object-contain rounded-xl' />
         <div className='text-left'>
             <div className='mb-1 flex items-center gap-2'>
                 <h4 className='font-bold text-lg'>David Parker</h4>

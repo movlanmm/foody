@@ -207,7 +207,7 @@ export default function Home() {
             className="absolute top-3 left-[20%]  animate-wiggle "
           >
             <img
-              src="/public/images/mushroom.svg"
+              src="/images/mushroom.svg"
               alt=""
               className="w-[50px] md:w-full"
             />
@@ -218,7 +218,7 @@ export default function Home() {
             className="absolute top-[20%] left-[40%] md:left-[60%] -z-10  animate-wiggle "
           >
             <img
-              src="/public/images/leaf.svg"
+              src="/images/leaf.svg"
               alt=""
               className="w-[50px] md:w-[140px]"
             />
@@ -229,7 +229,7 @@ export default function Home() {
             className="absolute top-[70%] left-[50%] -z-10  animate-wiggle "
           >
             <img
-              src="/public/images/pepper.svg"
+              src="/images/pepper.svg"
               alt=""
               className="w-[50px] md:w-full"
             />
@@ -539,10 +539,10 @@ export default function Home() {
             }}
             viewport={{ once: true }}
           >
-            <img src="/public/images/phone.png" alt="phone" className="w-4/5" />
+            <img src="/images/phone.png" alt="phone" className="w-4/5" />
           </motion.div>
           <div className="absolute -right-[70%] lg:-right-[30%] hidden sm:block">
-            <img src="/public/images/pizza_05.png" />
+            <img src="/images/pizza_05.png" />
           </div>
         </div>
       </section>

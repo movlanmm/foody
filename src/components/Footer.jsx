@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer>
         <div className="bg-[url(/public/images/footer-pizza_bg.png)] h-dvh bg-no-repeat bg-center flex flex-col gap-6 items-center justify-center px-3 md:px-0">
-              <img src="/public/images/logo.png" alt="logo" width={200} />
+              <img src="/images/logo.png" alt="logo" width={200} />
               <ul className='container flex justify-between flex-wrap gap-y-4 text-sm md:text-base'>
                 <li className='flex gap-2 items-center'>
                   <p className='bg-main p-3 rounded-full text-white'><CiLocationOn fontSize={25} /></p>
