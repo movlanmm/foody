@@ -116,7 +116,7 @@ export default function MobileHeader() {
           } absolute h-dvh bg-black text-white left-0 top-0 w-3/4 py-6 px-5 overflow-scroll transition-all duration-300 z-40`}
         >
           <div className="flex justify-between mb-5">
-            <img src="/public/images/logo.png" alt="logo" width={120} />
+            <img src="/images/logo.png" alt="logo" width={120} />
             <button onClick={() => setOpen(false)}>
               <IoClose fontSize={25} />
             </button>
