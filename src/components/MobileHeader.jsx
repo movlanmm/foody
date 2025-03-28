@@ -43,7 +43,7 @@ export default function MobileHeader() {
 
         <div>
           <a href="#">
-            <img src="/public/images/logo.png" alt="logo" width={100} />
+            <img src="/images/logo.png" alt="logo" width={100} />
           </a>
         </div>
 
